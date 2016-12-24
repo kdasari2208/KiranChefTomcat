@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: kirancheftomcat
-# Recipe:: default
+# Recipe:: tomcatService
 #
 # Copyright 2016, YOUR_COMPANY_NAME
 #

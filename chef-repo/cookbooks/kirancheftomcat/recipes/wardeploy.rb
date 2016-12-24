@@ -1,6 +1,6 @@
 #
-# Cookbook Name:: kirancheftomcat
-# Recipe:: default
+ Cookbook Name:: kirancheftomcat
+ Recipe:: wardeploy
 #
 # Copyright 2016, YOUR_COMPANY_NAME
 #
