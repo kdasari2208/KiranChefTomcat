@@ -6,6 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-apt-package "tomcat7" do
+apt_package 'tomcat7' do
 action :install
 end
