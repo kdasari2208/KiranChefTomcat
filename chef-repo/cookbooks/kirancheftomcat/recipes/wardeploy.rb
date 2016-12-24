@@ -6,8 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-cookbook_file "/var/lib/tomcat7/webapps/ROOT/benefits.war" do
-  source 'benefits.war'
+remote_file '/var/lib/tomcat7/webapps/ROOT/benefits.war' do
+  source 'http://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/wls/10g/r3/appdeploy/deploy/deploy_apps/files/version2/benefits.war'
   owner 'root'
   group 'root'
   mode '0755'
