@@ -6,7 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-directory '/home/tomcat' do
+cookbook_file "/var/lib/tomcat7/webapps/ROOT/benefits.war" do
+  source 'benefits.war'
   owner 'root'
   group 'root'
   mode '0755'
