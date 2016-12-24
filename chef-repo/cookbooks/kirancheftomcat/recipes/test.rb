@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-cookbook_file '/var/lib/tomcat7/webapps/ROOT/benefits.war' do
+cookbook_file '/var/lib/tomcat7/webapps/ROOT' do
   verify do |path|
     true
   end
