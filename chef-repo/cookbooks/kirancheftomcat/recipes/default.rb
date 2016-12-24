@@ -6,3 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+directory '/home/tomcat' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+end
