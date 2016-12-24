@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 service 'tomcat' do
-  action :start
+  action :restart
 end
